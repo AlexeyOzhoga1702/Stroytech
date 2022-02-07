@@ -1,0 +1,42 @@
+._container {   max-width: 1200px; margin: 0px auto; padding: 0px 35px; box-sizing: content-box;   } /* For limit of width*/
+.wrapper {   min-height: 100%; overflow: hidden; display: flex; flex-direction: column;   } /* Canvas */
+.header {   position: absolute; width: 100%; left: 0; top: 0; z-index: 50;   }
+
+.header {
+    padding: 20px 0px 20px 30px;
+    background-color: #fff;
+}
+.field_form-search {
+    border: 1px solid rgb(206, 206, 206);
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.main_text {
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 450px;
+    word-wrap: wrap;
+}
+.main_text-number {
+    font-size: 90px;
+    float: left;
+    padding: 30px;
+    background-color: rgb(112, 141, 204);
+    color: white;
+    margin-right: 20px;
+}
+.main_text-text {
+    line-height: 25px;
+}
+
+.main_image {
+    position: absolute;
+    z-index: -1;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    height: 670px;
+}
+
